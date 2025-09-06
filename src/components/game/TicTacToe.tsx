@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { Swords, Trophy } from "lucide-react";
+import { Swords } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Board } from "@/components/game/Board";
 import { Scoreboard } from "@/components/game/Scoreboard";

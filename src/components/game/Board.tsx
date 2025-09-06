@@ -59,7 +59,7 @@ export function Board({ board, winningLine, activePlayer, onSquareClick, roundWi
         {roundWinner && (
           <div className="mt-6 rounded-md border bg-accent p-4 text-center">
             {roundWinner === "draw" ? (
-              <p className="text-sm">It's a draw. Start the next round!</p>
+              <p className="text-sm">It&apos;s a draw. Start the next round!</p>
             ) : (
               <p className="text-sm">
                 <span className="mr-2 inline-flex items-center gap-1"><Trophy className="h-4 w-4 text-chart-4" /> {roundWinner}</span>
